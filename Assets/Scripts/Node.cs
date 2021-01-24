@@ -5,6 +5,27 @@ using UnityEngine;
 public class Node : MonoBehaviour
 {
     
+    public string Text
+    {
+        get
+        {
+            return text;
+        }
+        set
+        {
+
+        }
+    }
+
+
+    private string text;
+
+
+    public void UpdateText(string inputText)
+    {
+
+    }
+
 
     void Start()
     {
